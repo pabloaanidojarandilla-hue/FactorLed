@@ -349,6 +349,7 @@ form{
     display: flex;
     flex-wrap: wrap;
     gap: 1.2vw 5.5vw;
+    margin-bottom: 3vw;
 }
 .Subcategoría{
     width: 5.5vw;
@@ -364,9 +365,6 @@ form{
     font-family: "Montserrat";
     font-size: 0.7vw;
     text-align: center;
-}
-.Productos-Categorías {
-    margin-top: 3vw;
 }
 .Primera-parte {
     display: flex;
@@ -393,7 +391,7 @@ form{
     padding-right: 3vw;
 }
 .Ordenar select{
-    width: 18vw;
+    width: 16.5vw;
     height: 1.8vw;
     font-family: "Montserrat";
     border-color: #cacaca;
@@ -432,6 +430,25 @@ form{
     font-weight: 700;
     margin-left: 0.8vw;
     padding-bottom: 1vw;
+}
+.Ofertón{
+    width: 52vw ;
+    margin-bottom:2vw;
+    margin-left: 1vw;
+}
+.Ofertón img{
+    width: 100%;
+    margin-bottom: 1vw;
+}
+.Ofertón p{
+    font-family: "Montserrat";
+    font-size: 0.68vw;
+    line-height: 2;
+    letter-spacing: 1.5;
+    color: #8f8f8f;
+}
+.Ofertón p strong{
+    color: black;
 }
 @media (max-width: 1400px){
 .Zona-buscador{
