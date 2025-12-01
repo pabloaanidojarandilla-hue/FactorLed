@@ -486,6 +486,88 @@ form{
 .Texto-final img{
     margin-top: 0.6vw;
 }
+.Columna-Tabla{
+    margin-left: 13vw;
+    display: flex;
+    gap:1.5vw;
+    margin-top: 1vw;
+}
+.Columna{
+    width: 13vw;
+}
+.Columna h3{
+    font-family: "Montserrat";
+    font-size: 0.8vw;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(24, 24, 24);
+    padding-left: 0.8vw;
+    padding-top: 0.7vw;
+    padding-bottom: 0.6vw;
+    border-radius: 6px 6px 0 0;
+}
+.Columna p{
+    font-size: 0.7vw;
+    font-family: "Montserrat";
+    margin-top: 1vw;
+    color: #505050;
+}
+
+
+/* Cada fila: label + input */
+.Tabla .Asunto form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* Columna de los labels */
+.Tabla .Asunto form label {
+  width: 170px;           /* todos los labels mismo ancho */
+  text-align: right;      /* texto pegado a la derecha */
+  margin-right: 20px;     /* separación respecto al input */
+  font-weight: 700;
+  font-size: 0.7vw;
+  font-family: "Montserrat";
+}
+
+/* Columna de inputs/select/textarea */
+.Tabla .Asunto form input,
+.Tabla .Asunto form select,
+.Tabla {
+  flex: 1;                /* ocupa todo el espacio disponible */
+  padding: 8px ;
+  box-sizing: border-box;
+}
+.Tabla {
+  padding-top:2vw;
+  padding-left: 5.5vw;
+  padding-right: 4vw;
+  max-width: 900px;
+  border: 1px solid rgb(218, 218, 218);
+  padding-bottom: 10vw;
+}
+.Asunto form textarea{
+  flex: 1;
+  padding-right: 5vw; 
+  box-sizing: border-box;
+}
+/* Fila de políticas: checkbox + texto, sin label alineado a la derecha */
+.Tabla .Asunto form.Políticas {
+  align-items: flex-start;
+}
+
+.Tabla .Asunto form.Políticas label {
+  width: auto;
+  text-align: left;
+  margin: 0 0 0 10px;     /* un poco de espacio respecto al checkbox */
+  font-weight: 400;
+}
+
+.Tabla .Asunto form.Políticas input {
+  flex: 0;                /* que no se estire */
+  margin-left: 190px;     /* desplaza el checkbox para que “empiece” donde los inputs */
+}
 @media (max-width: 1400px){
 .Zona-buscador{
     display: flex;
